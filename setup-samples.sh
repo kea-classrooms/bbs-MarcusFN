@@ -2,11 +2,12 @@ mkdir samples
 mkdir samples/animals
 mkdir samples/animals/countries
 mkdir samples/animals/countries/movies
-SPACE '  '
+SPACE='  '
 
 ANIMALS=('Apes' 'Elephants' 'Elephant babies' 'Monkies' 'apes')
 COUNTRIES=('Denmark' 'Sweden' 'USA' 'France' 'Italy' '.apes' 'North Korea')
-MOVIES=('Batman' 'Sex And The City' 'JFK' 'Poltergeist' 'Germany')
+MOVIES=("Batman" "Sex And The City" "JFK" "Poltergeist" "Germany")
+
 
 cd samples/animals 
 for id in "${ANIMALS[@]}"

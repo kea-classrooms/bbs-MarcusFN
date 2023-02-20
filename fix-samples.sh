@@ -1,5 +1,4 @@
 cd samples/animals/
-
 mv countries/ ../
 
 cd ..
@@ -9,7 +8,7 @@ mv movies/ ../
 cd ..
 cd ..
 cd samples/animals/
-mv Monkies.txt animals/
+mv Monkies.txt Monkeys.txt
 
 cd ..
 mv movies/Germany.txt countries/
